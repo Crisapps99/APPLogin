@@ -37,7 +37,7 @@ const Login = () => {
                 <TextInput style={styles.input} placeholder='Contraseñasss'
                     secureTextEntry={true}
                     onChangeText={(text: string)=> setPassword(text)} value={password}/>
-                <Button onPress={login} title='Iniciar Sesión'/>
+                <Button onPress={login} title='Iniciar Sesión en esta cuenta '/>
                 <Button onPress={register} title="Crear una cuenta"/>
             </View>
         </View>
