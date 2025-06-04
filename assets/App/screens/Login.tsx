@@ -38,7 +38,7 @@ const Login = () => {
                     secureTextEntry={true}
                     onChangeText={(text: string)=> setPassword(text)} value={password}/>
                 <Button onPress={login} title='Iniciar Sesión'/>
-                <Button onPress={register} title="Crear una cuenta"/>
+                <Button onPress={register} title="Crear una cuenta de este usuario"/>
             </View>
         </View>
     );
