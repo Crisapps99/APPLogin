@@ -34,7 +34,7 @@ const Login = () => {
             <View style={styles.form}>
                 <TextInput style={styles.input} placeholder='Correo'
                     onChangeText={(text: string)=> setEmail(text)} value={email}/>
-                <TextInput style={styles.input} placeholder='Contraseña'
+                <TextInput style={styles.input} placeholder='Contraseñasss'
                     secureTextEntry={true}
                     onChangeText={(text: string)=> setPassword(text)} value={password}/>
                 <Button onPress={login} title='Iniciar Sesión'/>
